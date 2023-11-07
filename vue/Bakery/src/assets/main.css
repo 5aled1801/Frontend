@@ -1,0 +1,120 @@
+.landing-about .tex h1,
+.landing-about .tex p,
+body {
+  font-family: ui-sans-serif
+}
+
+.landing-about,
+.quttext {
+  position: relative
+}
+
+.landing-about::before,
+.quttext::before {
+  content: "";
+  position: absolute;
+  height: 100%
+}
+
+.sssss,
+.vvvv {
+  display: flex
+}
+
+body {
+  text-align: justify
+}
+
+.landing-about img {
+  width: 100%;
+  height: 50vh
+}
+
+.landing-about::before {
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, .279)
+}
+
+.landing-about .tex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2
+}
+
+.landing-about .tex h1 {
+  font-size: 50px;
+  color: #fff
+}
+
+.landing-about .tex p {
+  font-size: 18px;
+  color: #fff
+}
+
+.last {
+  text-align: center;
+  padding: 50px 0;
+  background-color: rgba(0, 0, 0, .742)
+}
+
+.last img {
+  width: 20%
+}
+
+.gallpost .container {
+  max-width: 75%;
+  line-height: 1.9
+}
+
+.carousel {
+  text-align: -webkit-center;
+  margin-bottom: 50px
+}
+
+.cont-gall {
+  margin-top: 100px
+}
+
+.vvvv {
+  justify-content: space-between
+}
+
+.carousel-inner {
+  width: 70%
+}
+
+.quttext {
+  padding-left: 33px;
+  margin: 30px
+}
+
+.quttext p {
+  display: contents
+}
+
+.quttext span {
+  margin-inline: 10px
+}
+
+.quttext::before {
+  left: 0;
+  top: 0;
+  width: 2px;
+  background-color: rgba(128, 128, 128, .685)
+}
+
+.sssss {
+  gap: 10px
+}
+
+@media (max-width:767px) {
+  .sssss {
+    flex-direction: column-reverse
+  }
+}
